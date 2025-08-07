@@ -1,0 +1,3 @@
+FROM gophish/gophish:latest
+RUN chmod +x /go/bin/gophish
+CMD ["./gophish"]
